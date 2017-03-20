@@ -3,6 +3,9 @@
 #### 准备工作
 添加依赖    compile 'com.android.support:design:25.0.1'<br>
 >相关<br>
-简单使用TextInputLayout、Toolbar、DrawerLayout、NavigationView、FloatingActionButton、CoordinatorLayout、CardView、AppBarLayout、
+简单使用TextInputLayout、Toolbar、DrawerLayout、NavigationView、FloatingActionButton、Snackbar、CoordinatorLayout、CardView、AppBarLayout、
 SwipeRefreshLayout、CollapsingToolbarLayout、Recyclerview。
-##### TextInputLayout 
+##### TextInputLayout <br>
+![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/TextInputLayout.gif)<br>
+
+##### DrawerLayout、ToolBar、NavigationView、FloatingActionButton 、Snackbar
