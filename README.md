@@ -39,6 +39,28 @@ SwipeRefreshLayout、CollapsingToolbarLayout、Recyclerview。
        (3)snap：表示当Toolbar还没有完全隐藏或显示的时候，会自动判断显示还是隐藏。<br>
 ###### SwipeRefreshLayout：
 在需要实现下拉刷新的控件放置到SwipeRefreshLayout中就能实现了。<br>
+#### 整体效果：
 ![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/GIF4.gif)<br>
 ## 可折叠式标题栏
-#### CollapsingToolBarLayout：
+#### NestedScrollView、CollapsingToolBarLayout
+##### NestedScrollView:
+在ScrollView的允许使用滚动的方式来查看屏幕以为的数据还增加了嵌套响应滚动事件的功能。<br>
+##### CollapsingToolBarLayout:
+CollapsingToolBarLayout可以让Toolbar的效果变的更加丰富；它是不能独立存在的，被限定只能作为AppBarLayout的直接子布局来使用，而AppBarLayout又必须是CoordinatorLayout的子布局，所以需要综合起来使用。<br>
+(如果在界面上再添加一个悬浮按钮的话，我们还可以免费获得一些额外的动画效果)<br>
+布局嵌套：<br>
+![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/%E5%8F%AF%E6%8A%98%E5%8F%A0%E5%B8%83%E5%B1%80.JPG)<br>
+###### 陌生属性：
+1.app:layout_collapseMode=""<br>
+    (1)pin:表示在折叠的过程中位置始终不变。<br>
+    (2)parallax:b表示会在折叠的过程中产生一定的错误偏移。<br>
+ 整体效果：<br>
+ ![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/GIF2.gif)<br>
+### 充分利用系统状态栏空间
+将背景图和状态栏融合在一起。仅支持android5.0之后的设备。<br>
+借助android：fitsSystemWindows这个属性来实现背景图和状态栏融合在一起。<br>
+在CoordinatorLayout、AppBarLayout、CollapsingToolBarLayout这种嵌套结构的布局中，将属性值设置为true即可。<br>
+在可折叠标题栏中需要再ImageView控件的所有父布局设置上这个属性才行。
+## 结束语
+#### 本文章只是简单实现Material Design。
+#### 学习更多Material Design需要科学上网。
