@@ -18,7 +18,7 @@ SwipeRefreshLayout、CollapsingToolbarLayout、Recyclerview。
 它是一个布局，允许放入两个直接子控件，第一个子控件是主屏幕中显示的内容，第二个子控件是滑动菜单中显示的内容。<br>
 ###### NavigationView:
 需要准备两个东西：menu.xml(在NavigationView中显示具体的菜单项);headerLayout(在NavigationView中显示头部布局的)<br>
-![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/TextInputLayout.gif)<br>
+![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/GIF.gif)<br>
 
 #### CoordinatorLayout
 它是一个增强版的FrameLayout，可以监听其所有子控件的各种事件，然后帮助我们做出最为合理的响应。<br>
@@ -39,4 +39,6 @@ SwipeRefreshLayout、CollapsingToolbarLayout、Recyclerview。
        (3)snap：表示当Toolbar还没有完全隐藏或显示的时候，会自动判断显示还是隐藏。<br>
 ###### SwipeRefreshLayout：
 在需要实现下拉刷新的控件放置到SwipeRefreshLayout中就能实现了。<br>
-![img]()<br>
+![img](https://github.com/ljrRookie/Material_Design/blob/master/Material_Design/GIF4.gif)<br>
+## 可折叠式标题栏
+#### CollapsingToolBarLayout：
